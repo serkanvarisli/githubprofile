@@ -33,7 +33,6 @@ btn.addEventListener("click", () => {
 
 function createUserCard(user) {
   const cardHTML = `
-  <div>
   <p id="yazi" class="yazi">tam profili görmek için karta tıklayın</p>
   <a href="https://github.com/${user.login}" target="_blank=">
   <div class="card">
@@ -51,6 +50,8 @@ function createUserCard(user) {
         </ul>
     </div>
 </div>
+</br>
+</br>
 </a>
 
 
