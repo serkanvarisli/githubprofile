@@ -25,6 +25,7 @@ body {
     justify-content: center;
     overflow: hidden;
     background-color: var(--primary-color);
+    height: auto;
 }
 
 .user-form {
